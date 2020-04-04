@@ -15,6 +15,18 @@ final class MyLibraryFirstTests: XCTestCase {
         
         
     }
+    
+    
+    func test_Other() {
+        
+        
+        
+        
+        
+        
+        
+    }
+    
 
     static var allTests = [
         ("testExample", testExample),
