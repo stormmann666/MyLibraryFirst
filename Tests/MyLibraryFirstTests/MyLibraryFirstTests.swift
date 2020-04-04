@@ -7,6 +7,13 @@ final class MyLibraryFirstTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
        // XCTAssertEqual(MyLibraryFirst().text, "Hello, World!")
+        
+        
+        let my = myService.dotheservice()
+        
+        XCTAssertNotNil(my)
+        
+        
     }
 
     static var allTests = [
