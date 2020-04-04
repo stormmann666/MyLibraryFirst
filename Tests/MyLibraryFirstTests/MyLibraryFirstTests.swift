@@ -19,9 +19,9 @@ final class MyLibraryFirstTests: XCTestCase {
     
     func test_Other() {
         
+        let f = myService().theNumberIs()
         
-        
-        
+        XCTAssert(f == 0)
         
         
         

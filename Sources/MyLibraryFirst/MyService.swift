@@ -10,6 +10,9 @@ import Foundation
 
 public struct myService {
     
+    let number : Int = 0
+    
+    
     public static func dotheservice() {
         
         
@@ -17,6 +20,16 @@ public struct myService {
         
         
     }
+    
+    
+    public func theNumberIs()-> Int {
+        
+        return number
+        
+        
+    }
+    
+    
     
     
 }
